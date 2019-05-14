@@ -350,3 +350,18 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+body .main-navigation {
+  z-index: 9999;
+}
+body .home,
+body .main-navigation {
+  transition: 0.5s;
+}
+body .shadow {
+  box-shadow: 0px 10px 50px #b4b4b4;
+  transition: box-shadow 0.5s;
+}
+body .opacity {
+  opacity: 0.2;
+  transition: opacity 0.5s;
+}
